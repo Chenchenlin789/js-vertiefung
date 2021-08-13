@@ -1,0 +1,127 @@
+/* lev2_1 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+
+/* lev2_2 */
+ input[type=text],
+ select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+
+ input[type=submit] {
+   width: 100%;
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+
+ div {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+ }
+
+ /* <!-- Level 2_10 --> */
+ body {
+	font-family: 'Karla', sans-serif;
+}
+
+button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.wrapper {
+	max-width: 500px;
+}
+div {
+	border-radius: 5px;
+}
+/* classList
+transition-property
+transition-duration
+box-shadow */
+
+.small {
+    box-shadow: 0px 0px 0px 10px #aaaa;
+    border-radius: 1em;
+    color: green;
+    padding: 2%;
+    text-align: center;
+    font-style: italic;
+}
+
+.middle{
+    box-shadow: 0px 0px 0px 25px #aaaa;
+    border-radius: 2em;
+    font-style: italic;
+    color: green;
+    padding: 2%;
+    text-align: center;
+}
+
+.big {
+    box-shadow: 0px 0px 0px 35px lightpink;
+    font-size: 4em;
+    border-radius: 15px;
+    font-family: 'alloy';
+    color: green;
+    text-shadow: 3px 6px darkorchid;
+    padding: 2%;
+    text-align: center;
+    transition-property: color;
+    color: blue;
+    transition-delay: .5s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+}
+
+
+
