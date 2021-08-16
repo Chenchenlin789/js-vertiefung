@@ -108,20 +108,24 @@ box-shadow */
 }
 
 .big {
-    box-shadow: 0px 0px 0px 35px lightpink;
+    box-shadow: 0px 0px 0px 25px rgb(241, 241, 157);
+    padding: 2em;
     font-size: 4em;
     border-radius: 15px;
     font-family: 'alloy';
-    color: green;
     text-shadow: 3px 6px darkorchid;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
-    transition-property: color;
-    color: blue;
     transition-delay: .5s;
-    transition-timing-function: ease-in-out;
-    transition-duration: .8s;
+    animation: change 1s infinite ease-in-out;
 }
-
+@keyframes change{
+    from{ 
+      color:orange;
+}
+    to {
+       color:orangered;
+}
+}
 
 

@@ -21,15 +21,20 @@ function collect() {
 function small() {
     let one= document.getElementById("element")
     one.classList.add("small")
+    one.classList.remove("big")
+    one.classList.remove("middle")
 }
 
 function middle() {
     let one= document.getElementById("element")
     one.classList.add("middle")
+    one.classList.remove("small")
+    one.classList.remove("big")
 }
 
 function big() {
     let one= document.getElementById("element")
     one.classList.add("big")
-    // one.classList.toggle("big")
+    one.classList.remove("small")
+    one.classList.remove("middle")
 }
